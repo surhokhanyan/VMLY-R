@@ -1,0 +1,270 @@
+/* Font size link */
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir.woff') format('woff'), url('../fonts/Avenir.ttf')  format('truetype'), url('../fonts/Avenir.svg#Avenir') format('svg');
+  }
+/* Delete default settings */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Style for Section first start */
+#sectionFirst{
+    width: 100%;
+    height: 1280px;
+    background: url(IMG/background.jpg.png);
+    background-size: 100%, 1280px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+#firstMain{
+    width: 1200px;
+    height: 947px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    transition: .5s;
+}
+#firstMainUp{
+    width: 1200px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: .5s;
+}
+#firstMainUpLogo{
+    width: 90%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+#firstMainUpLogoSvg{
+    width: 196.65px;
+    height: 44px;
+}
+#firstMainUpLogo svg{
+    width: 196.65px;
+    height: 44px;
+    color: white;
+    cursor: pointer;
+}
+#firstMainUpLogoHover{
+    width: 270.133px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    display: none;
+}
+#firstMainUpLogoHover p{
+    font-family: 'Avenir', Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 14.5px;
+    margin-left: 5px;
+    color: transparent;
+    cursor: pointer;
+    transition: .5s;
+}
+#firstMainUpLogoHover p:hover{
+    color: #00D1FF;
+}
+#firstMainUpMenuButton{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#firstMainUpMenuButton svg{
+    color: white;
+    cursor: pointer;
+}
+#firstMainUpMenuButton svg:hover{
+    transform: scale(1.112);
+}
+#firstMainCenter{
+    width: 1200px;
+    height: 191px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    transition: .5s;
+}
+#firstMainCenterInside{
+    width: 1142.87px;
+    height: 191px;
+    border-left: 8px solid #00D1FF;
+    padding-left: 50px;
+    transition: .5s;
+}
+#firstMainCenterInside h3{
+    font-size: 80px;
+    font-family: 'Avenir', Helvetica, sans-serif;
+    font-weight: unset;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: -0.125rem;
+    line-height: 70px;
+    transition: .5s;
+}
+#firstMainCenterInside p{
+    font-size: 90px;
+    color: white;
+    font-family: 'Avenir', Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 85px;
+    letter-spacing: -0.025em;
+    transition: .5s;
+}
+#firstMainBottom{
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+}
+#firstMainBottom i{
+    font-size: 40px;
+    color: white;
+}
+#firstParagraph{
+    width: 100%;
+    min-height: 236px;
+    background-color: #69A6D4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#firstParagraphMain{
+    width: 1200px;
+    min-height: 104px;
+    transition: .5s;
+}
+#firstParagraphMain p{
+    font-size: 16px;
+    color: white;
+    font-style: italic;
+    font-family: 'Avenir', Helvetica, sans-serif;
+    line-height: 25px;
+}
+#forMenu{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.750);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    display: none;
+}
+nav{
+    width: 325px;
+    height: 100vh;
+    background-color: #07002D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    right: -325px;
+    transform: 4s;
+}
+#navClose{
+    width: 275px;
+    height: 112px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-top: 25px;
+}
+#navClose{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+#menuUl{
+    width: 275px;
+    height: 835px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+#menuUl li{
+    width: 275px;
+    height: 41.1px;
+    color: rgba(255,255,255,0.5);
+    font-family: 'Avenir', Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: start;
+    list-style: none;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+#menuUl i{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+#menuUl li:nth-child(1){
+    color: #00D1FF;
+}
+#menuUl li:hover{
+    color: #00D1FF;
+}
+#menuUlClikFirst, #menuUlClickSecond{
+    position: relative;
+}
+#menuUlClikFirstUl{
+    width: 267px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 8px;
+    display: none;
+}
+#menuUlClikFirstUl li{
+    width: 267px;
+    height: 30.3167px;
+    color: rgba(255,255,255,0.5);
+    opacity: 0.65;
+    font-size: 15.2px;
+    line-height: 40px;
+}
+#menuUlClikFirstUl li:nth-child(1){
+    color: rgba(255,255,255,0.5);
+}
+#menuUlClickSecondUl{
+    width: 267px;
+    padding-left: 8px;
+    display: none;
+}
+#menuUlClickSecondUl li{
+    width: 267px;
+    height: 40.3167px;
+    color: rgba(255,255,255,0.5);
+    opacity: 0.65;
+    font-size: 15.2px;
+    line-height: 40px;
+}
+#menuUlClickSecondUl li:nth-child(1){
+    color: rgba(255,255,255,0.5);
+}
+/* First Section end */

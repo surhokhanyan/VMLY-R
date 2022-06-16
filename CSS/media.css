@@ -1,0 +1,130 @@
+@media screen and (max-width: 1220px ) {
+    #firstMain{
+        width: 1000px;
+    }
+    #firstMainUp{
+        width: 1000px;
+    }
+    #firstMainCenter{
+        width: 1000px;
+    }
+    #firstMainCenterInside{
+        width: 1000px;
+    }
+    #firstMainCenterInside p{
+        font-size: 89px;
+    }
+    #firstParagraphMain{
+        width: 1000px;
+    }
+}
+@media screen and (max-width: 1020px ) {
+    #firstMain{
+        width: 800px;
+    }
+    #firstMainUp{
+        width: 800px;
+    }
+    #firstMainCenter{
+        width: 800px;
+        height: 260px;
+    }
+    #firstMainCenterInside{
+        width: 800px;
+        height: 260px;
+    }
+    #firstMainCenterInside p{
+        font-size: 89px;
+    }
+    #firstParagraphMain{
+        width: 800px;
+    }
+}
+@media screen and (max-width: 820px ) {
+    #firstMain{
+        width: 600px;
+    }
+    #firstMainUp{
+        width: 600px;
+    }
+    #firstMainCenter{
+        width: 600px;
+    }
+    #firstMainCenterInside{
+        width: 600px;
+    }
+    #firstMainCenterInside h3{
+        font-size: 65px;
+    }
+    #firstMainCenterInside p{
+        font-size: 75px;
+    }
+    #firstParagraphMain{
+        width: 600px;
+    }
+}
+@media screen and (max-width: 620px ) {
+    #firstMain{
+        width: 400px;
+    }
+    #firstMainUp{
+        width: 400px;
+    }
+    #firstMainUpLogo{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #firstMainCenter{
+        width: 400px;
+        height: 190px;
+    }
+    #firstMainCenterInside{
+        width: 400px;
+        height: 190px;
+    }
+    #firstMainCenterInside h3{
+        font-size: 45px;
+        line-height: 60px;
+    }
+    #firstMainCenterInside p{
+        font-size: 55px;
+        line-height: 60px;
+    }
+    #firstParagraphMain{
+        width: 400px;
+    }
+    #firstParagraph{
+        min-height: 350px;
+    }
+}
+@media screen and (max-width: 420px ) {
+    #firstMain{
+        width: 325px;
+        height: 650px;
+    }
+    #firstMainUp{
+        width: 325px;
+    }
+    #firstMainCenter{
+        width: 325px;
+        height: 190px;
+    }
+    #firstMainCenterInside{
+        width: 325px;
+        height: 190px;
+    }
+    #firstMainCenterInside h3{
+        font-size: 38px;
+        line-height: 60px;
+    }
+    #firstMainCenterInside p{
+        font-size: 43px;
+        line-height: 60px;
+    }
+    #firstParagraphMain{
+        width: 325px;
+    }
+    #firstParagraph{
+        min-height: 350px;
+    }
+}
